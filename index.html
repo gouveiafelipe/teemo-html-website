@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <title>Teemo | Conference</title>
         <link rel="stylesheet" href="assets/stylesheets/main.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
     </head>
 
     <body>
@@ -14,9 +15,9 @@
             <h1 class="logo">
                 <a href="index.html">Teemo's <br> Conference</a>
             </h1>
-            <h3>November 13&ndash;13th &mdash; Sao Paulo, BR</h3>
+            <h3 class="tagline">November 13&ndash;16th &mdash; Sao Paulo, BR</h3>
         
-            <nav>
+            <nav class="nav primary-nav">
                 <a href="index.html">Home</a>
                 <a href="speakers.html">Speakers </a>
                 <a href="schedule.html">Schedule</a>
@@ -33,22 +34,31 @@
             <a class = "btn btn-alt" href="register.html">Register Now!!</a>
         </section>
         
-        <section class="container">
+        <section class="grid">
+
+            <!-- Speakers -->
         
-            <section>
+            <section class="teaser col-1-3">
                 <a href="speakers.html">
-                <h5>Speakers</h5>
-                <h3>World-Class Speakers</h3>
+                    <h5>Speakers</h5>
+                    <h3>World-Class Speakers</h3>
                 </a>
                 <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
-            </section>
+            </section><!--
+
+                Schedule
         
-            <section>
-                
+            --><section class="teaser col-1-3">
+                <a href="schedule.html">
+                    <h5>Schedule</h5>
+                    <h3>Three Inspiring Days</h3>
+                </a>
                 <p>Ab omnis aliquid ut enim dicta ut obcaecati laudantium!</p>
-            </section>
-        
-            <section>
+            </section><!--
+                
+                Venue
+
+            --><section class="teaser col-1-3">
                 <a href="venue.html">
                     <h5>Venues</h5>
                     <h3>The nearest Petshop</h3>
@@ -62,7 +72,7 @@
 
             <small>&copy; Teemo Conference</small>
         
-            <nav>
+            <nav class="nav">
                 <a href="index.html">Home</a>
                 <a href="speakers.html">Speakers </a>
                 <a href="schedule.html">Schedule</a>
